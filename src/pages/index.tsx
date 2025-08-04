@@ -10,7 +10,7 @@ export default function IndexPage() {
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
         <div className="inline-block max-w-lg text-center justify-center">
           <span className={title()}>Craft&nbsp;</span>
-          <span className={title({ color: "yellow" })}>cozy&nbsp;</span>
+          <span className={title({ color: "primary" })}>cozy&nbsp;</span>
           <br />
           <span className={title()}>
             crochet creations with Lora Crochets.
@@ -23,7 +23,7 @@ export default function IndexPage() {
         <div className="flex gap-3">
           <button
             className={buttonStyles({
-              color: "bg-yellow",
+              color: "primary",
               radius: "full",
               variant: "shadow",
             })}
